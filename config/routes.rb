@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
-  resources :articles
-  GET 'articles/:id/edit(.:format)', to: 'articles#edit'
+  root to: 'articles#index'
+  resources :articles do
+    resources :comments
+  end
+  #GET '/articles/:id/edit', to: 'articles#edit'
 end
