@@ -15,4 +15,8 @@ class TagsController < ApplicationController
 
     redirect_to articles_path
   end
+
+  def tag_params
+    params.require(:tag).permit(:name)
+  end
 end

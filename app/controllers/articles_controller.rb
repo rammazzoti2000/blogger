@@ -40,11 +40,11 @@ class ArticlesController < ApplicationController
     @article.destroy
     flash.notice = "Article '#{@article.title}' Deleted!"
 
-    redirect_to articles_path()
+    redirect_to action: 'index'
   end
 
   # private
   # def article_params
-  #   params.require(:article).permit(:title, :body)
+  #   params.require(:article).permit(:title, :body, :tag_list, :image)
   # end
 end
