@@ -107,8 +107,9 @@ You can see it working [here](https://morning-savannah-73840.herokuapp.com/)
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Microverse](https://www.microverse.org/)
-* [The Odin Project](https://www.theodinproject.com/)
+* [The JumpStartLab Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html#blogger-2)
 * [Ruby Documentation](https://www.ruby-lang.org/en/documentation/)
+* [Ruby on Rails](https://rubyonrails.org/)
 * [heroku](https://www.heroku.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
