@@ -72,7 +72,7 @@ To have this app on your pc, you need to:
   ```
     https://github.com/rammazzoti2000/blogger.git
   ```
-* and execute ```rails server``` file using your terminal and paste the ```localhost:3000``` into you browser address bar
+* and execute ```rails server``` command using your terminal and paste the ```localhost:3000``` into you browser address
 
 
 ### Built With
@@ -93,7 +93,7 @@ You can see it working [here](https://morning-savannah-73840.herokuapp.com/)
 
 👤 **Roman Nikolaev** 
     
-- LinkedIn: [Roman Nikolaev](https://www.linkedin.com/in/jaspreet-singh-a28286146/) - 
+- LinkedIn: [Roman Nikolaev](https://www.linkedin.com/in/roman-nikolaev-65b639197/) - 
 - GitHub: [@vzdrizhni](https://github.com/vzdrizhni)
 - E-mail: vzdrizhni@gmail.com
 
