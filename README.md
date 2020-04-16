@@ -56,13 +56,13 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://morning-savannah-73840.herokuapp.com/)
 
-This is the third project of the Microverse Ruby Module
+This is the third project of the Microverse Ruby on Rails Module. The app has been built following the [jumpstartlab](http://tutorials.jumpstartlab.com/projects/blogger.html#blogger-2) tutorial.
 
 <!-- ABOUT THE PROJECT -->
 ## Installation
 
 To have this app on your pc, you need to:
-* have ruby & Ruby on Rails installed in your computer
+* have Ruby & Ruby on Rails installed in your computer
 * [download](https://github.com/rammazzoti2000/blogger/archive/develop.zip) or clone this repo:
   - Clone with SSH:
   ```
@@ -72,7 +72,7 @@ To have this app on your pc, you need to:
   ```
     https://github.com/rammazzoti2000/blogger.git
   ```
-* and execute ```rails server``` file using your terminal
+* and execute ```rails server``` file using your terminal and paste the ```localhost:3000``` into you browser address bar
 
 
 ### Built With
