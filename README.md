@@ -60,12 +60,21 @@
 
 This is the third project of the Microverse Ruby on Rails Module. The app has been built following the [jumpstartlab](http://tutorials.jumpstartlab.com/projects/blogger.html#blogger-2) tutorial.
 
-<!-- ABOUT THE PROJECT -->
-## Installation
+## Built With
+This project was built using these technologies.
+* Ruby & Ruby on Rails
+* SQLite
+* JavaScript
+* Rubocop
+* Atom :atom:
+* Paperclip
 
-To have this app on your pc, you need to:
-* have Ruby & Ruby on Rails installed in your computer
-* [download](https://github.com/rammazzoti2000/blogger/archive/develop.zip) or clone this repo:
+<!-- ABOUT THE PROJECT -->
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+
+### Clone or Download
+* [Download](https://github.com/rammazzoti2000/blogger/archive/develop.zip) or clone this repo:
   - Clone with SSH:
   ```
     git@github.com:rammazzoti2000/blogger.git
@@ -74,21 +83,59 @@ To have this app on your pc, you need to:
   ```
     https://github.com/rammazzoti2000/blogger.git
   ```
-* and execute ```rails server``` command using your terminal and paste the ```localhost:3000``` into you browser address
+### Setup
 
+cd to the project:
 
-### Built With
-This project was built using these technologies.
-* Ruby & Ruby on Rails
-* SQLite
-* JavaScript
-* Rubocop
-* VsCode
+```cd Blogger-Rails```
+
+Install gems with:
+
+```bundle install```
+
+Setup database with:
+
+```rails db:migrate```
+
+## Usage
+Start server with:
+
+```rails server```
+
+Open http://localhost:3000/ in your browser.
+
+### Articles New page
+This is THE article's New page (THE tag New form is within this page)
+![screenshot](app/assets/images/blogger2_new.png)
+
+### Articles Show page
+This is THE article's show page (THE tag show page is within this page)
+![screenshot](app/assets/images/blogger2_show.png)
+
+### Articles Edit page
+This is THE article's Edit page (THE tag Edit form is within this page)
+![screenshot](app/assets/images/blogger2_article_edit.png)
+
+### Tag Search
+Click on any tag within AN article Show page
+![screenshot](app/assets/images/blogger2_tag_search.png)
+
+### Comments New 
+THE comment's NEW form is within THE article's Show page
+![screenshot](app/assets/images/blogger2_comments_new.png)
+
+### Comments Show
+THE comment's Show page is Within THE article's Show page
+![screenshot](app/assets/images/blogger2_comments_show.png)
 
 <!-- LIVE VERSION -->
 ## Live version
 
 You can see it working [here](https://morning-savannah-73840.herokuapp.com/)
+
+## Automated Test
+
+> There are no automated tests for this project yet
 
 <!-- CONTACT -->
 ## Contributors
@@ -105,6 +152,15 @@ You can see it working [here](https://morning-savannah-73840.herokuapp.com/)
 - GitHub: [@rammazzoti2000](https://github.com/rammazzoti2000)
 - E-mail: bangau.alexandru@gmail.com
 
+## :handshake: Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rammazzoti2000/blogger/issues).
+
+## Show your support
+
+Give a :star: if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
